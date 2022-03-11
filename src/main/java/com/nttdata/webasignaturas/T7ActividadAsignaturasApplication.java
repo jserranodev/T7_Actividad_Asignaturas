@@ -1,4 +1,4 @@
-package com.nttdata.activididadasignaturas;
+package com.nttdata.webasignaturas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -3,11 +3,10 @@ package com.nttdata.webasignaturas.repository.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
-import org.springframework.stereotype.Repository;
+import javax.persistence.Table;
 
 @Entity
-@Repository
+@Table
 public class Asignatura {
 
 	@Id
@@ -18,7 +17,7 @@ public class Asignatura {
 	private String nombre;
 	
 	@Column(nullable = false, length = 50)
-	private String descripción;
+	private String descripcion;
 	
 	@Column
 	private Integer curso;
